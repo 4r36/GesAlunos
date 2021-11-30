@@ -4,21 +4,21 @@
     "description": "primeiro web server",
     "main": "index.js",
     "scripts": {
-      "start": "nodemon index.js"
+        "start": "nodemon index.js"
     },
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/4r36/GesAlunos.git"
+        "type": "git",
+        "url": "git+https://github.com/4r36/GesAlunos.git"
     },
     "author": "Rodrigo Moura",
     "license": "ISC",
     "bugs": {
-      "url": "https://github.com/4r36/GesAlunos/issues"
+        "url": "https://github.com/4r36/GesAlunos/issues"
     },
     "dependencies": {
-      "express": "^4.17.1"
+        "express": "^4.17.1"
     },
     "devDependencies": {
-      "nodemon": "^2.0.14"
+        "nodemon": "^2.0.15"
     }
-  }
+}
