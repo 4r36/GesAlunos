@@ -32,14 +32,51 @@
     </div>
   </nav>
 
-    <div class="row">
-        <div class="col">
-          <input type="text" class="form-control" placeholder="First name" aria-label="First name">
-        </div>
-        <div class="col">
-          <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+  <div class="container mt-5">
+    <form class="row g-3">
+      <div class="col-md-6">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email">
+      </div>
+      <div class="col-md-6">
+        <label for="password" class="form-label">Password</label>
+        <input type="password" class="form-control" id="password">
+      </div>
+      <div class="col-12">
+        <label for="morada" class="form-label">morada</label>
+        <input type="text" class="form-control" id="morada" placeholder="1234 Main St">
+      </div>
+      <div class="col-12">
+        <label for="numeromorada" class="form-label">numero da morada</label>
+        <input type="text" class="form-control" id="moradaNumero" placeholder="Apartment, studio, or floor">
+      </div>
+      <div class="col-md-6">
+        <label for="nascimento" class="form-label">data de nascimento</label>
+        <input type="date" class="form-control" id="nascimento">
+      </div>
+      <div class="col-md-4">
+        <label for="inputState" class="form-label">nomero de telefone</label>
+        <input type="text" class="form-control" id="telefone">
+      </div>
+      <div class="col-md-2">
+        <label for="inputZip" class="form-label">nome</label>
+        <input type="text" class="form-control" id="inputZip">
+      </div>
+      <div class="col-12">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            Check me out
+          </label>
         </div>
       </div>
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary">Sign in</button>
+      </div>
+    </form>
+  </div>
+
+
       <style>
         #footer {
             position: fixed;
