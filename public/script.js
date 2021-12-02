@@ -3,15 +3,15 @@ fetch('http://localhost:5100/bd')
 .then(res => res.json())
 .then(data => processData(data))
 .catch(function(err){
-
-alert('Ocurreu um problema')
+    alert(err)
+    console.log(err)
 })
 }
 
 function processData(data){
     const tblalunos = document.getElementById('alunos')
     tblalunos.innerHTML =''
-    for(let i=0;i <100;i++){
+    for(let i=0;i <1;i++){
     let nome= data[i].nomeUtilizador 
     let email=data[i].email
     let nascimento=data[i].dataNascimento
