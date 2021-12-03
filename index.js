@@ -8,7 +8,7 @@ app.use(express.static('./public'))
 
 app.get('/bd',(req,res)=>{
     
-    connection.query('select * from utilizadores', function(err,result){
+    connection.query('select nomeUtilizador,email,YEAR(dataNascimento) AS dn, idutilizadores from utilizadores', function(err,result){
         if(err){
             console.log(err)
         }else{

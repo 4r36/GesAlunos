@@ -14,7 +14,7 @@ function processData(data){
     for(let i=0;i <1;i++){
     let nome= data[i].nomeUtilizador 
     let email=data[i].email
-    let nascimento=data[i].dataNascimento
+    let nascimento=data[i].dn
     let ID=data[i].idutilizadores
     tblalunos.innerHTML += `<tr>
                                 <th>${nome}</th>
